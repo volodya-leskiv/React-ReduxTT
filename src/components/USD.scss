@@ -1,0 +1,21 @@
+.usd-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  &__container {
+    padding: 10px;
+    border: solid #00d1b2 1px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  &__input {
+    max-width: max-content;
+  }
+  &__info {
+    align-items: center;
+  }
+}
